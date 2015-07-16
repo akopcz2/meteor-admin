@@ -24,10 +24,10 @@
   <div class="span12 post">
     <strong>{{ username }}</strong> - {{text}}
     <br />
-    <em>Postado em {{ pretiffyDate createdAt }}</em>
+    <em>Post  {{ pretiffyDate createdAt }}</em>
     {{#if isOwner}}
     <br />
-    <a class="btn btn-danger btn-xs btn-delete" data-id="{{ post.id }}">Apagar post</a>
+    <a class="btn btn-danger btn-xs btn-delete" data-id="{{ post.id }}">Delete Post</a>
     {{/if}}
   </div>
 </template>
