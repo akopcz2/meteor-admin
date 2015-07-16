@@ -1,0 +1,45 @@
+<head>
+  <title>adminn</title>
+</head>
+
+<body>
+<!--   {{> hello}} -->
+</body>
+
+<template name="hello">
+	<div class="jumbotron text-center">
+		<h1>Welcome to Meteor</h1>
+		<h2>Access the backend by <a href="admin">clicking here</a> </h2>
+	</div>
+	<div class="container text-center">
+		{{ > Blogs}}
+	</div>
+</template>
+
+<template name="example">
+  {{ dict 'site.description' 'No description' }}
+</template>
+
+<template name="post">
+  <div class="span12 post">
+    <strong>{{ username }}</strong> - {{text}}
+    <br />
+    <em>Postado em {{ pretiffyDate createdAt }}</em>
+    {{#if isOwner}}
+    <br />
+    <a class="btn btn-danger btn-xs btn-delete" data-id="{{ post.id }}">Apagar post</a>
+    {{/if}}
+  </div>
+</template>
+
+<!-- This calls the template for Editing -->
+<template name="Blogs">
+  <div>
+    {{> fro _onbeforeSave=doSave _value=myDoc.myHTMLField}}
+  </div>
+</template>
+
+<!-- This is necessary for froala template to work -->
+<template name='fro'>
+  <div class='froala-reactive-meteorized'></div>
+</template>
