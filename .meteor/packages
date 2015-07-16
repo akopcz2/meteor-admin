@@ -14,6 +14,6 @@ orionjs:bootstrap
 orionjs:pages
 froala:editor-reactive
 iron:router
-
+autopublish
 orionjs:filesystem
 orionjs:s3
