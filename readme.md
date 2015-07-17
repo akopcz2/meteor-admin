@@ -1,7 +1,7 @@
 ##In order to get this to work you need
-*meteor
-*mongo
-*node
+* meteor
+* mongo
+* node
 
 
 ##This guide is for OSX
