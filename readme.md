@@ -16,8 +16,8 @@
 * curl https://install.meteor.com/ | sh
 
 ###Third 
-Navigate to director meteor-admin
-	meteor
+* Navigate to directort meteor-admin in terminal
+* Run command meteor
 
 
 
