@@ -22,6 +22,11 @@ if (Meteor.isClient) {
     layoutTemplate: 'blog'
   });
 
+  Router.route('/view/',{
+    name:'view',
+    layouTemplate: 'viewPost'
+  });
+
 
     Template.listBlogs.helpers({
     blogs: function () {
