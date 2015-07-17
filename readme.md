@@ -1,8 +1,6 @@
 ##In order to get this to work you need
-* meteor
-* mongo
-* node
-
+* <a href="https://www.meteor.com/install">Meteor</a>
+* <a href="http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/">MongoDB</a>
 
 ##This guide is for OSX
 
