@@ -1,21 +1,21 @@
-In order to get this to work you need
-	*meteor
-	*mongo
-	*node
+##In order to get this to work you need
+*meteor
+*mongo
+*node
 
 
-This guide is for OSX
+##This guide is for OSX
 
-	First 
+###First 
 	Install MongoDB
 * brew update
 * brew install mongodb
 
-	Second 
+###Second 
 	Install Meteor
 * curl https://install.meteor.com/ | sh
 
-Third 
+###Third 
 Navigate to director meteor-admin
 	meteor
 
